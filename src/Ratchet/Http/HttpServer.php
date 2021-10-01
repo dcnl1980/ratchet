@@ -1,11 +1,11 @@
 <?php
 namespace Ratchet\Http;
+
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 
 class HttpServer implements MessageComponentInterface {
     use CloseResponseTrait;
-
     /**
      * Buffers incoming HTTP requests returning a Guzzle Request when coalesced
      * @var HttpRequestParser
