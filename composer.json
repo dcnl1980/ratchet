@@ -1,5 +1,5 @@
 {
-    "name": "cboden/ratchet"
+    "name": "dcnl1980/ratchet"
   , "type": "library"
   , "description": "PHP WebSocket library"
   , "keywords": ["WebSockets", "Server", "Ratchet", "Sockets", "WebSocket"]
@@ -15,6 +15,11 @@
             "name": "Matt Bonneau"
           , "role": "Developer"
         }
+      , {
+            "name": "Chris van Steenbergen"
+            "homepage": "https://github.com/dcnl1980",
+            "role": "Developer"
+        }
     ]
   , "support": {
         "issues": "https://github.com/ratchetphp/Ratchet/issues"
@@ -26,10 +31,10 @@
         }
     }
   , "require": {
-        "php": ">=5.4.2"
+        "php": ">=5.4.2 || ^7 || ^8"
       , "ratchet/rfc6455": "^0.3"
       , "react/socket": "^1.0 || ^0.8 || ^0.7 || ^0.6 || ^0.5"
-      , "guzzlehttp/psr7": "^1.0"
+      , "guzzlehttp/psr7": "^1.5 || ^2.0"
       , "symfony/http-foundation": "^2.6|^3.0|^4.0|^5.0"
       , "symfony/routing": "^2.6|^3.0|^4.0|^5.0"
     }
